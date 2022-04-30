@@ -45,7 +45,7 @@ I wrote some tests for every exercise if neccessary in test_chapter3.ml. So you 
 
 * [ ] Chapter 2
 * [X] Chapter 3
-* [ ] Chapter 4
+* [X] Chapter 4
 * [ ] Chapter 5
 * [ ] Chapter 6
 * [ ] Chapter 7
@@ -58,11 +58,18 @@ There are doubts about the following exercises, and I suspect there are more ele
 
 ## Chapter 3
 
-* Exercise: unimodal
-* Exercise: date before
-* Exercise: earliest date
-* Exercise: matching (I'm not quite sure what this question means)
-* Exercise: is_bst
+* **Exercise: unimodal** (A more elegant solution wanted)
+* **Exercise: date before** (A more elegant solution wanted)
+* **Exercise: earliest date**
+* **Exercise: matching** (I'm not quite sure what this exercise means)
+* **Exercise: is_bst** (A more elegant solution wanted)
+
+## Chapter 4
+
+* **Exercise: account balance** (I'm not sure what this exercise means)
+* **Exercise: more list fun** (I mean the third sub-exercise. A more elegant solution wanted)
+* **Exercise: row vector add** & **Exercise: matrix add** (They both throw `Invalid_argument "List.map2"` which can be confusing)
+* **Exercise: matrix multiply** (The same thing, I didn't handle the exception quite well. And I wonder if this can be more elegant)
 
 # Please......
 
