@@ -1,11 +1,6 @@
 open OUnit2
 open Chapter4
 
-(* Exercise: twice, no arguments *)
-(* Exercise: mystery operator 1 *)
-(* Exercise: mystery operator 2 *)
-(* No, there are no tests for them *)
-
 (* Exercise: repeat *)
 let repeat_tests = 
   let f x = x * x in

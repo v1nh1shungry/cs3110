@@ -1,18 +1,3 @@
-(* Exercise: twice, no arguments *)
-(* Ahh, I don't know how to express it, so let's just skip it :) *)
-
-(* Exercise: mystery operator 1 *)
-(* Aha, interesting! It works just like the $ in Haskell.
-   Because $ has a lower priority than function applications, 
-   it makes function applications turns out to be right-associative. 
-   For more information about the operator priority of OCaml you can refer to
-   https://v2.ocaml.org/api/Ocaml_operators.html *)
-
-(* Exercise: mystery operator 2 *)
-(* Cool! It works just like the . in Haskell.
-   It combines the functions.
-   But just pay attention to its left-associative. *)
-
 (* Exercise: repeat *)
 let rec repeat f n x = if n = 0 then x else repeat f (n - 1) (f x)
 

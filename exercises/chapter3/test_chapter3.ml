@@ -96,10 +96,6 @@ let powerset_tests = "tests for powerset" >::: [
   "multiple elements" >:: (fun _ -> assert_equal [[]; [3]; [2]; [2; 3]; [1]; [1; 3]; [1; 2]; [1; 2; 3]] (powerset [1;2;3]));
 ]
 
-(* Exercise: print int list rec *)
-(* Exercise: print int list iter *)
-(* I don't know how to test functions with side effects... *)
-
 (* Exercise: student *)
 let extract_name_tests = "tests for extract_name" >::: [
   "vinh" >:: (fun _ -> assert_equal ("Vincent", "Hong") (extract_name vinh))
@@ -108,9 +104,6 @@ let extract_name_tests = "tests for extract_name" >::: [
 let create_student_tests = "tests for create_student" >::: [
   "sarah" >:: (fun _ -> assert_equal {first_name="Sarah"; last_name="Bae"; gpa=4.} (create_student "Sarah" "Bae" 4.))
 ]
-
-(* Exercise: pokerecord *)
-(* No. Thera are no tests for this exercise *)
 
 (* Exercise: safe hd and tl *)
 let safe_hd_tests = "tests for safe_hd" >::: [
@@ -146,11 +139,6 @@ let earliest_tests = "tests for earliest" >::: [
     (2022, 5, 2);
   ]))
 ]
-
-(* Exercise: assoc list *)
-(* Exercise: cards *)
-(* Exercise: matching *)
-(* Can you imagine there are any tests for these exercises? *)
 
 (* Exercise: quadrant *)
 let quadrant_tests = "tests for quadrant" >::: [
