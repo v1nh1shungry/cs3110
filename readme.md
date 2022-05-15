@@ -64,7 +64,7 @@ I write some tests for every exercise needs codes in test_chapter4.ml. There are
 * [X] Chapter 3
 * [X] Chapter 4
 * [x] Chapter 5
-* [ ] Chapter 6
+* [x] Chapter 6
 * [ ] Chapter 7
 * [ ] Chapter 8
 * [ ] Chapter 9
@@ -102,6 +102,11 @@ There are some shothands,
 * **WANTED**
   * Exercise: fraction reduced
   * **Exercise: refactor arith**: I haven't eliminated all duplication of `of_int`.
+
+## Chapter 6
+
+* **WANTED**
+  * **Exercise: doubly linked list**: Guess what? I can't figure it out! Help wanted really, please!
 
 # Please......
 
